@@ -1,0 +1,13 @@
+.chatConteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  overflow: hidden;
+}

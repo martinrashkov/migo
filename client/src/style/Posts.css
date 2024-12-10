@@ -1,0 +1,63 @@
+/* Posts Page */
+.post-form .post-form-header {
+  background: var(--primary-color);
+  padding: 0.5rem;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.post-container > div:first-child {
+  text-align: center;
+}
+
+.post-container img {
+  width: 60px;
+}
+
+.posts {
+  clear: both;
+}
+
+.post-container .comment-count {
+  background: var(--light-color);
+  color: var(--primary-color);
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.post-container .post-date {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .post-container {
+    grid-template-columns: 1fr;
+  }
+  .post-container a,
+  .post-container button {
+    padding: 0.3rem 0.4rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .post-btn {
+    float: left;
+  }
+}
